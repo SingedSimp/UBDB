@@ -227,6 +227,30 @@ const corruptingPotion = {
     starting: "true",
     support: "false"
 };
+const eclipse = {
+    name: "Eclipse",
+    emote: "<:Eclipse:806602778041778206>",
+    type: "ad",
+    mythic: "true",
+    starting: "false",
+    support: "false",
+}
+const goredrinker = {
+    name: "Goredrinker",
+    emote: "<:Goredrinker:806605075664732220>",
+    type: "ad",
+    mythic: "true",
+    starting: "false",
+    support: "false"
+}
+const stridebreaker = {
+    name: "Stridebreaker",
+    emote:"<:Stridebreaker:806606084169007105>",
+    type:"ad",
+    mythic:"true",
+    starting:"false",
+    support:"false"
+}
 const loadout = [];
 const apStarter = [];
 const adStarter = [];
@@ -238,7 +262,8 @@ const ad = [];
 const apMythic = [];
 const adMythic = [];
 const items = [hullbreaker, trinityForce, spellthiefsEdge, doransRing, doransBlade,
-    corruptingPotion, cosmicDrive, everfrost, spectralSickle
+    corruptingPotion, cosmicDrive, everfrost, spectralSickle, eclipse, goredrinker,
+    stridebreaker
 ];
 
 exports.RandomItem = RandomItem;
